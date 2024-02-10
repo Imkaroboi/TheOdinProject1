@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.top-area {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+#main_logo {
+    height: 100px;
+}
+#links {
+
+}
