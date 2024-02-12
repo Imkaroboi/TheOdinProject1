@@ -10,9 +10,25 @@ body {
   justify-content: center;
   justify-content: space-between ;
 }
+.logo {
+  margin-left: 100px;
+}
 #main_logo {
-  height: 100px;
+  height: 105px;
 }
 #links {
 
+}
+.button_div {
+  display: flex;
+  padding-right: 100px;
+  margin-right: 600px;
+  gap: 3rem;
+}
+.topItems {
+}
+.buttons {
+  background-color: #1f2937;
+  border: none;
+  color: white;
 }
