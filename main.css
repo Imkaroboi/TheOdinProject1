@@ -1,16 +1,19 @@
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 .topHeader {
   display: flex;
   justify-content: space-between;
   width: 90%;
 }
+.complete-top {
+  background-color: #1f2937
+}
 .container {
+  margin: 0 auto;
+  max-width: 90%;
   background-color: #1f2937;
   justify-content: center;
   justify-content: space-between ;
@@ -30,6 +33,7 @@ body {
   gap: 9rem;
 }
 .topItems {
+  display: flex;
 }
 .buttons {
   background-color: #1f2937;
