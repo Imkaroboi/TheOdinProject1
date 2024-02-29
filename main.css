@@ -1,3 +1,8 @@
+* {
+  border: solid white 1px;
+  margin: none;
+  padding: none;
+}
 body {
   max-width: 100%;
   margin: 0 auto;
@@ -44,13 +49,17 @@ body {
 .top-text {
   margin-left: 7%;
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 #mainText {
   color: white;
   font-size: 40px;
+  margin: none;
 }
 #SmallText {
   color: grey;
   font-size: large;
-  margin-bottom: ;
+  margin: none;
 }
