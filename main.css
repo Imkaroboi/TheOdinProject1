@@ -2,6 +2,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
+  overscroll-behavior: none;
 }
 .topHeader {
   display: flex;
@@ -13,7 +14,7 @@ body {
 }
 .container {
   margin: 0 auto;
-  max-width: 60%;
+  max-width: 90%;
   background-color: #1f2937;
   justify-content: center;
   justify-content: space-between ;
@@ -64,6 +65,7 @@ body {
   display: flex;
   padding-bottom: 6%;
   justify-content;
+  width: 100%;
 }
 .logoPlaceholder {
   background-color: white;
@@ -74,5 +76,7 @@ body {
   height: 200px;
   width: 900px;
   gap: none;
-  margin-right: 300px;
+  margin-right: 9%;
+}
+.title-text {
 }
