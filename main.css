@@ -86,7 +86,7 @@ body {
 }
 .fourpics {
   display: flex;
-  gap: 10rem;
+  gap: 0rem;
   margin-top: 100px;
   justify-content: space-evenly;
 }
@@ -94,4 +94,22 @@ body {
   height: 150px;
   width: 150px;
   background-color: black;
+}
+.fourtext {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+}
+.grayboxtext {
+  font-size: 2rem;
+  justify-self: auto;
+  width: 50%;
+  margin: 100px auto;
+}
+.graybox {
+  background-color: #E5E7EB;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
 }
