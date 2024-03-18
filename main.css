@@ -93,7 +93,9 @@ body {
 .boxes {
   height: 150px;
   width: 150px;
-  background-color: black;
+  background-color: rgba(0,0,0,0);
+  border: #3882f6 4px solid;
+  border-radius: 10px;
 }
 .fourtext {
   display: flex;
@@ -112,4 +114,27 @@ body {
   display: flex;
   align-items: center;
   margin-top: 100px;
+}
+.calltoaction {
+  background-color: #3882f6;
+  width: 30%;
+  margin: 100px auto;
+  display: flex;
+  padding: 40px 80px;
+  border-radius: 10px;
+}
+.textonleft {
+  color: white;
+}
+.buttononright {
+  color: rgba(0,0,0,0.5);
+  margin-left: 100px;
+}
+.footer {
+  background-color: #1f2937;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
